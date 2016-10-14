@@ -1,0 +1,112 @@
+@import "slider_media.css" screen;
+.slider{
+	margin: 0 !important;
+	padding: 0;
+}
+.slider img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.slick-dots{
+
+	text-align: start;
+	padding-bottom: 4%;
+	padding-left: 22%; 
+	/*bottom: 7%;
+	left: 22%;*/
+
+}
+
+.slick-dots li {
+	/*color: transparent;*/
+	border: 1px solid rgba(255, 255, 255, .7);
+	
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+}
+
+.slick-dots li:active{
+	/*background: red;*/
+}
+
+.slick-dots li button:before{
+	text-align: left;
+	font-size: 11px;
+	line-height: 11px;
+	margin-left: -1px;
+	margin-top: 0px;
+
+	color: transparent;
+}
+
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #fff;
+}
+
+.slick-next{
+	right: 10%;
+	
+}
+.nextArrow:hover{
+	cursor: pointer;
+}
+.slick-prev{
+ 	left: 19%;
+ 	z-index: 1;
+}
+
+.prevArrow:hover{
+	cursor: pointer;
+}
+
+.prevArrow{
+    position: absolute;
+    width: auto !important;
+    left: 18.64229765%;
+    top: 38.05309735%;
+    z-index: 1;}
+
+.nextArrow{
+    position: absolute;
+		width: auto !important;
+    right: 18.64229765%;
+    top: 38.05309735%;
+    z-index: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

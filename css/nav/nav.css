@@ -1,0 +1,49 @@
+@import "nav_media.css" screen;
+
+nav{
+    height: auto;
+    background: #ECECEC;
+font-family: OpenSans_Regular;}
+
+nav h3{
+	font-size: 1em;
+    height: 50px;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-family: OpenSans_Regular;
+    text-transform: uppercase;
+}
+
+h3:hover{
+    background: #007AA3;
+    cursor: pointer;
+}
+
+nav ul{width: 100%;}
+
+.dropdown-menu{background: #0082AD;}
+
+nav ul li{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+  nav ul li:nth-child(even) a{
+    line-height: 39px !important;
+  }
+
+nav ul li a{
+    line-height: 30px;
+		display: inline-block;
+		
+}
+
+.dropdown-menu li a:hover{background: #007AA3;}
+
+.slider img{
+    width: auto;
+}

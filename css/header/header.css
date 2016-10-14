@@ -1,0 +1,55 @@
+@import "header_media.css" screen;
+.left_line{background: #15B799; height: 4px;}
+.center_line{background: #0082AD; height: 4px;}
+.right_line{background: #133A81; height: 4px;}
+
+
+
+header{
+    text-align: center;
+    height: 144px;}
+
+.logo{
+	margin-top: 29px;
+}
+p{
+	font-family: OpenSans_Light;
+}
+span.bold{
+    font-family: OpenSans_Regular;
+		color: #0082AD;}
+span.light{
+    font-weight: 200;
+    font-family: OpenSans_Light;}
+
+.clever_factoring p{
+    font-size: 19px;
+    padding: 0;
+    margin-top: 42px;
+    margin-left: 15%;
+    }
+
+address{
+	float: left;
+	margin-left: 35%;
+	margin-top: 39px;
+}
+
+address span{
+    color: #15B799;
+    font-size: 20px;}
+
+.fa-phone, .fa-envelope{
+	padding-right: 15px;
+	color: #C2C2C2;
+}
+
+.mail{
+    font-size: 10px;
+    text-decoration: underline;
+    font-family: OpenSans_Regular;}
+
+a{color: #339BBD}
+address ul li{
+	float: left;
+}

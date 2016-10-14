@@ -1,0 +1,57 @@
+@import url("header/header.css") screen;
+@import url("nav/nav.css") screen;
+@import url("slider/user_slider.css") screen;
+@import url("section_take_money/section_take_money.css") screen;
+@import url("section_financing_terms/section_financing_terms.css") screen;
+@import url("text_block/text_block.css") screen;
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	
+	/*overflow-x: hidden;*/
+}
+
+@font-face {
+    font-family: OpenSans_Light;
+    src: url(../fonts/OpenSans/OpenSans-Light.ttf);}
+@font-face {
+    font-family: OpenSans_Bold;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);}
+@font-face {
+    font-family: OpenSans_Regular;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);}
+
+

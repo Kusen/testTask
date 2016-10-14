@@ -1,0 +1,39 @@
+@import "section_financing_terms_media.css" screen;
+
+
+
+
+.financing_terms{
+    height: 450px;
+    text-align: center;
+    background: black;
+    background-image: url(../../images/section_financing_terms/financing_terms.png);
+    background-repeat: repeat-y;
+    
+    color: white;
+    
+     background-position: 0% 20%;
+}
+
+.financing_terms h1{
+    font-size: 2em;
+
+    letter-spacing: -0.1px;
+    padding-bottom: 15px;
+    font-family: OpenSans_Regular;
+    color: white;
+    text-align: center;
+}
+
+.financing_terms h2{
+    line-height: 1em;
+    padding-bottom: 10px;
+		text-transform: uppercase;
+}
+.financing_terms .container .row:nth-child(1){
+	
+	margin: 26px 0;
+}
+.financing_terms .container .row:nth-child(2){
+	
+}

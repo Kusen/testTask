@@ -1,0 +1,32 @@
+@import "section_take_money_media.css" screen;
+.left_line{background: #15B799; height: 4px;}
+.center_line{background: #0082AD; height: 4px;}
+.right_line{background: #133A81; height: 4px;}
+
+
+
+.take_money{
+    height: 492px;
+    text-align: center;
+}
+
+.take_money h1{
+    font-size: 1.9em;
+
+    letter-spacing: -0.3px;
+    padding-bottom: 15px;
+    font-family: OpenSans_Regular;
+    color: #0082A5;
+    text-align: center;
+}
+.take_money h2{
+	line-height: 1em;
+	padding-bottom: 10px;
+}
+.take_money .container .row:nth-child(1){
+    
+    margin: 26px 0;
+}
+.take_money .container .row:nth-child(2){
+    
+}

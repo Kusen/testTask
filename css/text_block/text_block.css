@@ -1,0 +1,31 @@
+@import "text_block_media.css" screen;
+
+.text_block{
+	height: 337px;
+	background: #46BCAF;
+}
+
+.text_block p{
+	color: white;
+		margin: 0;
+	padding: 0;
+	text-shadow: 1px 1px 1px rgba(121, 121, 121, .6);
+}
+.text_regular{
+	
+	font-size: 1.5em;
+	font-family: OpenSans_Regular;
+	
+}
+
+.text_bold{
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	font-family: OpenSans_Bold;
+}
+
+.text_block_position{
+	margin-top: 8.5%;
+}
